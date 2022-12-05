@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: blue;
+    padding: 1rem;
+}
+.head{
+    text-align: center;
+}
+.lists{
+    min-width: 500px;
+    margin: 1rem 0;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.25rem 1rem;
+    margin-bottom: 1rem;
+}
